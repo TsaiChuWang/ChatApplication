@@ -20,4 +20,11 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this,ContactList_Activity.class);
         startActivity(intent);
     }
+
+    //進入聊天室清單介面(ContactList_Activity)
+    public void chat_imageButton_onClick(View view) {
+        Intent intent=new Intent();
+        intent.setClass(MainActivity.this,ChatroomList_Activity.class);
+        startActivity(intent);
+    }
 }

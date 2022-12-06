@@ -115,6 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#00000000"
+                android:onClick="chat_imageButton_onClick"
                 app:srcCompat="@drawable/chat" />
 
 <!--            <Space-->
