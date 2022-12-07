@@ -27,4 +27,11 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this,ChatroomList_Activity.class);
         startActivity(intent);
     }
+
+    //進入團購清單介面(GroupBuyingList_Activity)
+    public void shop_imageButton_onClick(View view) {
+        Intent intent=new Intent();
+        intent.setClass(MainActivity.this,GroupBuyingList_Activity.class);
+        startActivity(intent);
+    }
 }
