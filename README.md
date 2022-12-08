@@ -2,7 +2,7 @@
  * @Author: TsaiChuWang wtsaichu@gmail.com
  * @Date: 2022-12-05 21:39:09
  * @LastEditors: TsaiChuWang wtsaichu@gmail.com
- * @LastEditTime: 2022-12-07 10:49:34
+ * @LastEditTime: 2022-12-08 15:07:47
  * @FilePath: /workspace/E-Android Studio/ChatApplication/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -23,3 +23,7 @@ Designed communication software for the elderly, it is the final assignment of t
 **7 Dezember 2022** 更新團購訂單列表
 
 **7 Dezember 2022** Update group purchase order list
+
+**8 Dezember 2022** 新分支:Interface_Only 保存現在版本
+
+**8 Dezember 2022** New Branch Interface_Only in order to save the version now
