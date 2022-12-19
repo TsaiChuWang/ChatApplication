@@ -12,26 +12,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().hide(); //隱藏標題
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN); //隱藏狀態
     }
 
-    //進入聯絡人介面(ContactList_Activity)
-    public void contact_imageButton_onClick(View view) {
-        Intent intent=new Intent();
-        intent.setClass(MainActivity.this,ContactList_Activity.class);
-        startActivity(intent);
-    }
+    public void register_onclick(View view) {
 
-    //進入聊天室清單介面(ContactList_Activity)
-    public void chat_imageButton_onClick(View view) {
-        Intent intent=new Intent();
-        intent.setClass(MainActivity.this,ChatroomList_Activity.class);
-        startActivity(intent);
-    }
-
-    //進入團購清單介面(GroupBuyingList_Activity)
-    public void shop_imageButton_onClick(View view) {
-        Intent intent=new Intent();
-        intent.setClass(MainActivity.this,GroupBuyingList_Activity.class);
+        Intent intent=new Intent(MainActivity.this,Register_Activity.class);
         startActivity(intent);
     }
 }
