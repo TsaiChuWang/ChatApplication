@@ -98,6 +98,8 @@ Database:MongoDB(外部伺服器使用) csv(建議不要用)
 
 ### 7. 關於APK
 
+名稱叫做 [app-debug.apk]
+
 - - -
 
 # 目的Purpose
@@ -191,13 +193,21 @@ Nexus SX API 33
 ├──  Server_Folder              //局域網用的伺服器資料夾
 
 ├── 簡報                         // 報告用的簡報
-    
     ├── 聊癒.pptx                //主要用的PPT
 
 ├── 素材Matrial                  // APP裡面的圖片來源或是報告的一些圖
 
 
 └── app-debug.apk               // 當前版本apk檔案
+
+## 作者列表 Author list
+
+指導老師：
+黃朝曦 副教授，國立宜蘭大學 資訊工程學系,email: chhuang@niu.edu.tw
+
+學生：
+蔡馥伃，國立宜蘭大學 資訊工程學系,email: afiop1010817117802@gmail.com
+王采筑, 國立宜蘭大學 資訊工程學系,email: wtsaichu@gmail.com
 
 ## 更新日誌
 
