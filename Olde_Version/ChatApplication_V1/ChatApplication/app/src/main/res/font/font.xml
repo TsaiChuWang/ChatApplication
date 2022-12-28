@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font android:font="@font/notoseriftc_black"/>
+
+    <font
+        android:font="@font/notoseriftc_bold"
+        android:fontStyle="italic"
+        android:fontWeight="100" />
+
+    <font
+        android:font="@font/notoseriftc_extralight"
+        android:fontStyle="normal"
+        android:fontWeight="200" />
+
+    <font
+        android:font="@font/notoseriftc_medium"
+        android:fontStyle="italic"
+        android:fontWeight="200" />
+
+    <font
+        android:font="@font/notoseriftc_regular"
+        android:fontStyle="normal"
+        android:fontWeight="300" />
+
+    <font
+        android:font="@font/notoseriftc_semibold"
+        android:fontStyle="italic"
+        android:fontWeight="300" />
+</font-family>

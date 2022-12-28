@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatApplication</string>
+    <string name="PhoneNumber">電話</string>
+    <string name="Password">密碼</string>
+    <string name="appName">聊癒</string>
+    <string name="url">192.168.2.101:9001</string>
+    <string name="name_test">李怡盛</string>
+    <string name="todo">TODO</string>
+</resources>

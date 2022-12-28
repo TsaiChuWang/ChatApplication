@@ -82,9 +82,19 @@ Database:MongoDB(外部伺服器使用) csv(建議不要用)
 
 在Old_Version資料夾內是舊的版本，可以掠過
 
-真正的，期末用到的是[ChatApplication]
+真正的，期末用到的是[ChatApplication](https://github.com/TsaiChuWang/ChatApplication/tree/main/ChatApplication)
 
 ### 5. 關於繳交
+
+這個項目包含：
+
+1. 完整Project以及更新版本
+2. Server的資料
+3. 簡報內是報告(含預報告)
+4. 部份影片素材
+5. Youtube [影片連結](https://www.youtube.com/watch?v=J8f1g3h9Vww&ab_channel=%E8%94%A1%E9%A6%A5%E4%BC%83)
+
+作為期末繳交的資料，麻煩助教了
 
 ### 7. 關於APK
 
@@ -159,6 +169,35 @@ Android 13
 
 Nexus SX API 33
 1080 x 1920
+
+## 項目結構簡介 Introduction to project structure
+
+├── Readme.md                   // help
+
+├── .gradle
+
+├── .idea                       // Libraries 之類的東西
+
+├── app                         // 存放程式
+
+├── ChatApplication             //沒有雜物的專案
+
+├── gradle
+
+├── images                      // APP裡面的圖片
+
+├── Olde_Version                //存放舊版本
+
+├──  Server_Folder              //局域網用的伺服器資料夾
+
+├── 簡報                         // 報告用的簡報
+    
+    ├── 聊癒.pptx                //主要用的PPT
+
+├── 素材Matrial                  // APP裡面的圖片來源或是報告的一些圖
+
+
+└── app-debug.apk               // 當前版本apk檔案
 
 ## 更新日誌
 
