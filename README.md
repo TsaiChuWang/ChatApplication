@@ -44,6 +44,51 @@ Dies ist die letzte Aufgabe von 111 Mobile Device Programming, bitte laden Sie d
 
 # 給助教的說明
 
+### 1. 關於簡報
+
+在「簡報資料夾」裡面
+
+因為拍片的原因都是離散的簡報，主要簡報名稱為「聊癒」
+
+其他依照編號為拍片簡報
+
+PPT預報的簡報為「聊癒：預報」
+
+### 2. 關於APP專案
+
+現在看到的本身就是APP專案的資料夾
+
+在Old_Version可以看到以前舊的版本
+
+如果希望不要有雜七雜八的檔案（例如：簡報跟影片），可以下載「ChatApplication」這個資料夾
+
+### 3. 關於伺服器
+
+### 4. 關於版本
+
+### 5. 關於繳交
+
+### 7. 關於APK
+
+- - -
+
+# Purpose
+
+這是 第三組 111 行動裝置程式設計的期末作業
+
+對於想要認真撰寫一個聊天APP的人，我建議**不要**下載這份專案，因為程式碼大部分沒寫註解
+
+##　Usage scenarios
+
+111 行動裝置程式設計，只適用於這堂課，請注意 111
+
+##　how to use
+
+使用 Android Studio 開啟專案，並且使用 Android 12 以上的手機或是模擬器進行測試
+
+## Implementation and related details
+
+詳情見「簡報/聊癒.ppt」
 
 
 ## 更新日誌
