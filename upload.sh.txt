@@ -1,0 +1,15 @@
+#!/bin/bash
+###
+ # @Author: TsaiChuWang wtsaichu@gmail.com
+ # @Date: 2022-11-22 21:15:40
+ # @LastEditors: TsaiChuWang wtsaichu@gmail.com
+ # @LastEditTime: 2022-12-19 08:34:09
+ # @FilePath: /workspace/D-5GNR/PersonalExperimentsAbout5GNR/upload_git.sh
+ # @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+### 
+cd ~/Documents/workspace/E-Android Studio/ChatApplication
+git remote set-url origin https://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@github.com/TsaiChuWang/ChatApplication.git
+git add .
+git add -u .
+git commit -m "19 Dezember 2022 "
+git push -u origin main

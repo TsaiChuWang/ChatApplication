@@ -80,6 +80,10 @@ Database:MongoDB(外部伺服器使用) csv(建議不要用)
 
 ### 4. 關於版本
 
+在Old_Version資料夾內是舊的版本，可以掠過
+
+真正的，期末用到的是[ChatApplication]
+
 ### 5. 關於繳交
 
 ### 7. 關於APK
@@ -104,33 +108,58 @@ Database:MongoDB(外部伺服器使用) csv(建議不要用)
 
 詳情見「簡報/聊癒.pptx」
 
-## 功能描述 Functional description
+# 功能描述 Functional description
 
-### 註冊 Register
+## 註冊 Register
 
 使用電話號碼建立帳號，需要填寫電話號碼 暱稱 密碼以及性別
 
-### 登入 Login
+## 登入 Login
 
 使用電話號碼登入帳號，輸入錯誤會顯示Tiast訊息
 
-### 聯絡人 Contact
+## 聯絡人 Contact
 
 檢視聯絡人：以RecyclerView+AppBarLayout顯示
 新增聯絡人：使用AlterDialog.Builder，輸入電話後新增（對方不用同意）
 搜尋聯絡人：找到聯絡簿內的聯絡人
 
-### 聊天 Chatroom
+## 聊天 Chatroom
 
 即時通訊（也就是一般聊天室）
 
-###　影片 Video
+##　影片 Video
 
 在該App裡面觀看Youtube
 
-### 團購 Group Buying
+## 團購 Group Buying
 
 訂單列表以及詳情（只顯示你跟你好友的）
+
+# 開發環境 Development environment
+
+Build #AI-213.7172.25.2113.9123335, built on September 30, 2022
+
+## Android Studio
+Runtime version: 11.0.13+0-b1751.21-8125866 amd64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+
+## Server
+MX Linux Debian 5.10.140-1 (2022-09-02) x86_64 GNU/Linux
+Windows 10.
+
+## 測試環境
+
+### 實體手機
+
+Samaoung Galaxy A53
+Android 13
+
+### 虛擬機
+
+Nexus SX API 33
+1080 x 1920
+
 ## 更新日誌
 
 Designed communication software for the elderly, it is the final assignment of the mobile device (Master)
