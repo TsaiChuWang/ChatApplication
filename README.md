@@ -89,9 +89,13 @@ Database:MongoDB(外部伺服器使用) csv(建議不要用)
 這個項目包含：
 
 1. 完整Project以及更新版本
+
 2. Server的資料
+
 3. 簡報內是報告(含預報告)
+
 4. 部份影片素材
+
 5. Youtube [影片連結](https://www.youtube.com/watch?v=J8f1g3h9Vww&ab_channel=%E8%94%A1%E9%A6%A5%E4%BC%83)
 
 作為期末繳交的資料，麻煩助教了
@@ -133,7 +137,9 @@ Database:MongoDB(外部伺服器使用) csv(建議不要用)
 ## 聯絡人 Contact
 
 檢視聯絡人：以RecyclerView+AppBarLayout顯示
+
 新增聯絡人：使用AlterDialog.Builder，輸入電話後新增（對方不用同意）
+
 搜尋聯絡人：找到聯絡簿內的聯絡人
 
 ## 聊天 Chatroom
@@ -153,11 +159,15 @@ Database:MongoDB(外部伺服器使用) csv(建議不要用)
 Build #AI-213.7172.25.2113.9123335, built on September 30, 2022
 
 ## Android Studio
+
 Runtime version: 11.0.13+0-b1751.21-8125866 amd64
+
 VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
 
 ## Server
+
 MX Linux Debian 5.10.140-1 (2022-09-02) x86_64 GNU/Linux
+
 Windows 10.
 
 ## 測試環境
@@ -197,17 +207,25 @@ Nexus SX API 33
 
 ├── 素材Matrial                  // APP裡面的圖片來源或是報告的一些圖
 
+├── 企劃書.docx                  //當初繳交的企劃書
 
 └── app-debug.apk               // 當前版本apk檔案
 
 ## 作者列表 Author list
 
 指導老師：
+
 黃朝曦 副教授，國立宜蘭大學 資訊工程學系,email: chhuang@niu.edu.tw
 
 學生：
+
 蔡馥伃，國立宜蘭大學 資訊工程學系,email: afiop1010817117802@gmail.com
+
 王采筑, 國立宜蘭大學 資訊工程學系,email: wtsaichu@gmail.com
+
+# Demo 影片
+
+[行動裝置_第三組](https://www.youtube.com/watch?v=J8f1g3h9Vww&ab_channel=%E8%94%A1%E9%A6%A5%E4%BC%83)
 
 ## 更新日誌
 
