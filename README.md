@@ -64,6 +64,20 @@ PPT預報的簡報為「聊癒：預報」
 
 ### 3. 關於伺服器
 
+架在局域網，伺服器作業系統是MX Linux Debian 5.10.140-1 (2022-09-02) x86_64 GNU/Linux
+
+在Server資料夾包括
+
+**局域網測試用的在Server_Folder裡面**
+
+參考的Github項目下載，也有失敗的
+
+Webocket: WebRTC(失敗) NodeJS（成功） Java(成功)
+
+Http: python RESTful API(現在正在用) Fast API(不建議用但是可以用)
+
+Database:MongoDB(外部伺服器使用) csv(建議不要用)
+
 ### 4. 關於版本
 
 ### 5. 關於繳交
@@ -72,25 +86,51 @@ PPT預報的簡報為「聊癒：預報」
 
 - - -
 
-# Purpose
+# 目的Purpose
 
 這是 第三組 111 行動裝置程式設計的期末作業
 
 對於想要認真撰寫一個聊天APP的人，我建議**不要**下載這份專案，因為程式碼大部分沒寫註解
 
-##　Usage scenarios
+## Usage scenarios
 
 111 行動裝置程式設計，只適用於這堂課，請注意 111
 
-##　how to use
+## how to use
 
 使用 Android Studio 開啟專案，並且使用 Android 12 以上的手機或是模擬器進行測試
 
 ## Implementation and related details
 
-詳情見「簡報/聊癒.ppt」
+詳情見「簡報/聊癒.pptx」
 
+## 功能描述 Functional description
 
+### 註冊 Register
+
+使用電話號碼建立帳號，需要填寫電話號碼 暱稱 密碼以及性別
+
+### 登入 Login
+
+使用電話號碼登入帳號，輸入錯誤會顯示Tiast訊息
+
+### 聯絡人 Contact
+
+檢視聯絡人：以RecyclerView+AppBarLayout顯示
+新增聯絡人：使用AlterDialog.Builder，輸入電話後新增（對方不用同意）
+搜尋聯絡人：找到聯絡簿內的聯絡人
+
+### 聊天 Chatroom
+
+即時通訊（也就是一般聊天室）
+
+###　影片 Video
+
+在該App裡面觀看Youtube
+
+### 團購 Group Buying
+
+訂單列表以及詳情（只顯示你跟你好友的）
 ## 更新日誌
 
 Designed communication software for the elderly, it is the final assignment of the mobile device (Master)
